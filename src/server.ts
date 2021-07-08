@@ -20,6 +20,5 @@ server.use((req,res)=>{
       res.render('pages/404');
 });
 
-
 // Rotas
 server.listen(process.env.PORT);
